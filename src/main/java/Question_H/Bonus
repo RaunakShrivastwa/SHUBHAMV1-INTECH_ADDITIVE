@@ -1,0 +1,43 @@
+#Question:
+   The deeper you go into computer architecture and explain, better.
+
+#Ans:
+    The main Components of Computer is :
+    1 C.P.U.
+    2 Storage
+    3 Input/OutPut
+
+    1. C.P.U.
+    => This is called brain of Computer because inside computer all operations done by the help of CPU, CPU stands for
+       Central Processing units. it has three main components:
+       a) A.L.U. (Arithmetic Logical unit)
+       b) C.U. (Control unit)
+       c) M.U. (Memory Unit)
+
+       * A.L.U.
+       => Performed all Mathematical or Arithmetical operation and logical Operation
+
+       * C.U.
+       => Manage the Instruction
+
+       * M.U.
+       => supply operands to the ALU and store the results of ALU operations.
+
+    2. Storage
+    =>  Stores data and instructions temporarily or permanently.
+        There is two Types of Storage Device
+        a) Primary Storage(Ram) -> It Store Data Temporary
+        b) Secondary Storage(HDD/SDD) ->It Store Data Permanents
+
+    3. Input/Output(I/O)
+    => Facilitate communication between the computer and the user or other devices.
+    Input Device->   1 Keyboard
+                     2 Mouse
+                     3 Touchpad
+                     4 Webcams etc..
+
+    Output Device->  1 Speaker
+                     2 Monitor
+                     3 Printer
+                     4. Projector etc...
+

@@ -1,0 +1,14 @@
+Ray-plane intersection: t = - (dot (n, p) + d) / dot (n, v), where p is a point on the plane, v is the direction of
+the ray, n is the normal of the plane, and d is the distance from the origin to the plane.
+Ray-sphere intersection: The intersection point P can be found by solving the quadratic equation: at^2 + bt + c = 0,
+where a = dot(d, d), b = 2*dot(d, e), c = dot(e, e) - r^2, d is the direction of the ray, e is the vector from the
+center of the sphere to the origin of the ray, and r is the radius of the sphere.
+Ray-triangle intersection: The intersection point P can be found by solving the system of
+equations: P = O + tD, P = V0 + u(V1 - V0) + v*(V2 - V0),
+where O is the origin of the ray,
+  D is the direction of the ray,
+  V0, V1, and V2 are the vertices of the triangle, and
+  u and v are the barycentric coordinates of the intersection point.
+
+
+Node: I took help from internet to understand

@@ -1,0 +1,19 @@
+#Question:
+    Random crashes – you are given a source code to test and it randomly crashes and it never crashes in the same
+    place ( you have attached a debugger and you find this). Explain what all you would suspect and how would you go
+    about with isolating the cause.
+
+#Ans:
+    There is following reason for crashes
+    1. Memory Issue
+    2. Hardware
+    3. External Library or Dependencies
+    4. Threading
+
+    Isolate the Causes
+    1. logging (Print the log)
+    2. Reproduce
+    3. Code Review
+    4. Testing
+    5. Memory Space
+    6. Collaboration

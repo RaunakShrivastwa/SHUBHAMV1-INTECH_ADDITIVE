@@ -1,0 +1,8 @@
+Question...
+Explain one real world use case where stack is better used data structure than arrays.
+
+ANS:
+Method Activation Record Internally Uses Stack and Known As Stack Frames. Activation record manage function or method call. for every
+method call new activation record created and pushed into the stack. if nested function call (Function within function ) new activation record created respectively and pushed
+inside Stack, then LIFO comes Into the Picture for Execution Most recent activation record which is inside top of the stack. If execution have been done then it pop from the
+stack and this process continue till stack not empty. for this work Array is Not efficient, Arrays could theoretically be used for this purpose, but using a stack simplifies the management of Method Call and its Execution.

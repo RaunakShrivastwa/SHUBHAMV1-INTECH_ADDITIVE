@@ -1,0 +1,31 @@
+#Question:
+    What is dot product and cross product? Explain use cases of where dot product is used and cross product is used
+    in graphics environment. Add links to places where you studied this information and get back with the
+    understanding.
+
+#ANS:
+    In Vector , if we want add and subtract two vector its easy , but for the multiplication its little bit difficult.
+    For the Multiplying two vector there is two way
+    1> Scalar Product (Dot Product)
+    2> Vector Product (Cross Product)
+
+    1. Scalar Product(Dot Product)
+    =>  If we want to multiply two vectors then we can use dot product. but in this case after multiplying we get quantity without
+        direction , because of this  dot product called Scalar Product.
+         Ex 1  A = [ai,bj,ck]
+               B = [pi,qj,rk]
+               A.B = ap+bq+cr
+    Node:  if We don't need direction we can go for scalar product
+
+
+    2. Vector Product(Cross Product)
+    => if we want to multiply two vectors then we can use cross product, and with this we get the quantity with direction
+       Ex 1  A = [ai,bj,ck]
+             B = [pi,qj,rk]
+             create Determinant of AxB
+             AxB = |i,j,k|
+                   |a,b,c|
+                   |p,q,r|
+             = [i(b*r-c*q)-j(a*r-c*p)+k(a*q-b*p)]
+
+Note: if we want product with direction so Vector product uses
