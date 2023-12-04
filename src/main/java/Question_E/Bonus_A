@@ -1,5 +1,6 @@
 Question: Explain what is a greedy algorithm and how dynamic programming helps in this case.
 
+Ans:
 Greedy algorithm is a technique to finding optimal Solution, actually the main intention of greedy approach to finding locally
 optimal choice at each stage to finding optimal solution. we choose minimum cost at each stage and choose optimal choice to getting more
 profit.
